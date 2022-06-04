@@ -191,7 +191,7 @@ void displayGame()
     if (!cellToggleFlag) // Cells not toggleable, therefore game has started
     {
         drawString("Game in progress.", 0.4 * lWidth, 0.05 * lHeight, GLUT_BITMAP_TIMES_ROMAN_24);
-        char msg[40];
+        char msg[60];
         sprintf(msg, "Current\nGeneration:\n%d\nMaximum\nGeneration:\n%d", currGen, maxGen);
         drawString(msg, 0 * lWidth, 0.7 * lHeight, GLUT_BITMAP_HELVETICA_10);
     }
